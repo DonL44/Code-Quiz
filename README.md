@@ -32,7 +32,7 @@ The following animation demonstrates the application functionality:
 
 * <a href="https://donl44.github.io/Code-Quiz/"> Link to active webpage </a>
 
-![Screenshot of the Coding Quiz Challenge.](assets\images\quiztime.png)
+![Screenshot of the Coding Quiz Challenge.](https://raw.githubusercontent.com/DonL44/Code-Quiz/main/assets/images/quiztime.png)
 
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
