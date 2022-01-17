@@ -21,31 +21,30 @@
     </header>
     <main>
       <section id="intro" class="intro">
-        <h3>Hello World!</h3>
-        <p>Welcome to my timed programming quiz. Here are the rules:</p>
+        <div>
+          <p>Welcome to my timed programming quiz. <br/>Here are the rules:</p>
         <ul>
           <li>You will have 300 seconds to complete the quiz.</li>
           <li>You may skip as many questions as you like.</li>
           <li>Answers can not be changed once selected.</li>
           <li>30 seconds will be deducted for incorrect answers.</li>
           <li>Correct answers will increase your score by 10 points.</li>
-          <li>
-            Every second of time remaining at quiz completion will increase your
-            score by 1 points.
-          </li>
+          <li>Every second of time remaining at quiz completion<br/>will increase your
+              score by 1 points.</li>
         </ul>
         <button class="hoverable-button" onclick="beginQuiz()">Start Quiz!</button>
+        </div>
       </section>
       <section id="question-card" class="question-card">
-        <h3 id="question-text-el"></h3>
-        <div id="answers-container-el"></div>
-        <div id="question-notification-el"></div>
+        <div><h3 id="question-text-el"></h3>
+        <p id="answers-container-el"></p>
+        <p id="question-notification-el"></p>
+      </div>
         <button
           id="next-question-button"
           class="question-submit hoverable-button"
           onclick="nextQuestion()"
         >
-          Skip
         </button>
       </section>
       <section id="results" class="results">

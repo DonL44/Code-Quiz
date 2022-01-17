@@ -13,11 +13,13 @@ body {
   height: 100%;
 }
 
-:root {
+body {
   background-image: url(https://wallpaperaccess.com/full/2384073.jpg);
-  background-size: cover;
+  background-size: contain ;
   background-repeat:no-repeat;
+  background-position: center;
   color: #fff(255, 255, 255);
+  background-color: rgb(10, 2, 14);
 }
 
 .row {
@@ -75,19 +77,20 @@ main {
   min-height: 90%;
   display: flex;
   background-color: var(--pink);
+  color: #fff;
 }
 
 /* general section styling */
 section {
   background-color: var(--purple);
-  width: 80%;
+  width: 100%;
   min-height: 500px;
   margin: 0 auto;
   padding: 1em 10% 0.5em;
   border-radius: 8px;
   align-self: center;
   display: flex;
-  flex-direction: column;
+  flex-direction:unset;
   color: var(--text-dark);
 }
 
@@ -105,10 +108,12 @@ section p {
 
 section button {
   background-color: var(--pink);
+  color: #fff;
   border: none;
   border-radius: 8px;
   box-shadow: 0 15px 10px #66688f3a;
   transition: all 0.3s ease 0s;
+  display:block;
 }
 
 /* intro */
@@ -126,6 +131,7 @@ section button {
   font-size: 24px;
   margin: 1em auto;
   list-style-position: outside;
+  text-align: left;
 }
 
 .intro button {

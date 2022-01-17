@@ -1,25 +1,24 @@
 const questions = [
     {
-      text: "How do you properly link a stylesheet to an HTML page?",
-      answers: [
-        'A) <link rel="stylesheet" href="./style.css" />',
-        'B) <link rel="stylesheet" src="./style.css" />',
-        'C) <style type="css" href="./style.css" />',
-        'D) <a rel="stylesheet" href="./style.css" />',
-      ],
-      correct: "A",
-    },
+        text: "What is a Progressive Web Application?",
+        answers: [
+          "A) An app that must be downloaded on a mobile device through an app store.",
+          "B) An app that uses tools such as service workers and manifests to replicate functionalities of native apps.",
+          "C) An app that has received an award for exceptional creativity.",
+          "D) A term for an app that has met certain accessability criteria.",
+        ],
+        correct: "B",
+      },
     {
-      text:
-        "How would you properly access the third item of an array named 'myArray' in Javascript?",
-      answers: [
-        "A) myArray(3)",
-        "B) myArray[3]",
-        "C) myArray[2]",
-        "D) myArray.3",
-      ],
-      correct: "C",
-    },
+        text: "What is one advantage of using GraphQL?",
+        answers: [
+          "A) You are able to display data from your server in a preformatted graph.",
+          "B) GraphQL is the only way to make requests to a database with a Node.js backend.",
+          "C) GraphQL is made by Facebook, so Facebook developers will routinely debug all of your GraphQL projects for you!",
+          "D) You are not restricted by API endpoints and can therefore access specific amounts and types of data in a single request.",
+        ],
+        correct: "D",
+      },
     {
       text:
         "Which of the following values is considered truthy in Javascript?",
@@ -63,14 +62,15 @@ const questions = [
       correct: "D",
     },
     {
-      text: "What is one advantage of using GraphQL?",
+        text:
+        "How would you properly access the third item of an array named 'myArray' in Javascript?",
       answers: [
-        "A) You are able to display data from your server in a preformatted graph.",
-        "B) GraphQL is the only way to make requests to a database with a Node.js backend.",
-        "C) GraphQL is made by Facebook, so Facebook developers will routinely debug all of your GraphQL projects for you!",
-        "D) You are not restricted by API endpoints and can therefore access specific amounts and types of data in a single request.",
+        "A) myArray(3)",
+        "B) myArray[3]",
+        "C) myArray[2]",
+        "D) myArray.3",
       ],
-      correct: "D",
+      correct: "C",
     },
     {
       text:
@@ -84,13 +84,13 @@ const questions = [
       correct: "C",
     },
     {
-      text: "What is a Progressive Web Application?",
-      answers: [
-        "A) An app that must be downloaded on a mobile device through an app store.",
-        "B) An app that uses tools such as service workers and manifests to replicate functionalities of native apps.",
-        "C) An app that has received an award for exceptional creativity.",
-        "D) A term for an app that has met certain accessability criteria.",
-      ],
-      correct: "B",
-    },
+        text: "How do you properly link a stylesheet to an HTML page?",
+        answers: [
+          'A) <link rel="stylesheet" href="./style.css" />',
+          'B) <link rel="stylesheet" src="./style.css" />',
+          'C) <style type="css" href="./style.css" />',
+          'D) <a rel="stylesheet" href="./style.css" />',
+        ],
+        correct: "A",
+      },
   ];
