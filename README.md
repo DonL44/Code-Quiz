@@ -28,16 +28,12 @@ THEN I can save my initials and score
 
 The following animation demonstrates the application functionality:
 
-![Demonstration of the Coding Quiz Challenge.](./Assets/04-web-apis-homework-demo.gif)
+### Links
 
-### Review
+* <a href="https://donl44.github.io/Code-Quiz/"> Link to active webpage </a>
 
-You are required to submit the following for review:
+![Screenshot of the Coding Quiz Challenge.](http://icecream.me/e85b0c17bdf9ca870b8007a572bd0af9)
 
-* The URL of the functional, deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 # Code-Quiz
